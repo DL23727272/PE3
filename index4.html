@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 4</title>
+</head>
+<body>
+    <p id="act"></p>
+    <script>
+        var d = new Date().getHours();
+        if (d >= 6 && d <= 12) {
+            document.getElementById('act').innerHTML = "Goodmorning";
+        } else if (d > 12) {
+            document.getElementById('act').innerHTML = "Good afternoon";
+        } else {
+            alert("GOOD DAY");
+        }
+    </script>
+</body>
+</html>

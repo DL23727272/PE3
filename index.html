@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 1</title>
+</head>
+<body>
+
+    <p id="act1"></p>
+    <script>
+        var grade = prompt("Enter your grade: ");
+        if(grade >= 90){
+            document.getElementById('act1').innerHTML = "A";
+        }else if(grade >= 80){
+            document.getElementById( 'act1' ).innerHTML = "B";
+        }else if(grade >= 70){
+            document.getElementById( 'act1' ).innerHTML = "C";
+        }else if (grade <= 60 || grade >= 60){
+            document.getElementById('act1').innerHTML = "F";
+        }
+    </script>
+    
+</body>
+</html>

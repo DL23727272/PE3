@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <p id="act2"></p>
+    <script>
+        var num1 = 3;
+        var num2 = 1;
+        if(num1 > num2){
+            document.getElementById('act2').innerHTML = "num1 is greater than num2";
+        }else if(num2 > num1){
+            document.getElementById( 'act2' ).innerHTML = "num2 is greater than num1";
+        }else if(num1 == num2){
+            document.getElementById( 'act2' ).innerHTML = "num1 is equal to num2";
+        }else {
+            document.getElementById('act2').innerHTML = "Invalid";
+        }
+    </script>
+</body>
+</html>
